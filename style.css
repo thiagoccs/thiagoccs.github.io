@@ -1,1 +1,19 @@
-body {background-color:#98c1d9;}
+body {
+    background-color:#98c1d9;
+}
+.nomeTitulos {
+    color: #e0fbfc;
+}
+.foto {
+    border-radius: 10px;
+}
+.voltarFoto {
+    text-decoration: none;
+    background-color: #ee6c4d;
+    padding: 10px 5px;
+    border-radius: 8px;
+    color: #293241;
+}
+.corTextos {
+    color: #293241;
+}
