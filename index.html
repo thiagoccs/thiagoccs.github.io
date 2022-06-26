@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head >
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro Portifólio Web</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portifólio Thiago</title>
 </head>
+
 <body>
-    <h1 id="1">Thiago Costa Correia de Souza</h1>
-    <img id="foto" src="thiago.jpeg" alt="Foto do Thiago na obra usando capacete" width="400px">
-    <h2>Informações Pessoais</h2>
-    <p>Sou brasileiro, nasci em Belo Horizonte/ Minas Gerais 
-        <br>Ainda moro onde nasci, no bairro Floresta
-    </p>
-    <h2 id="2">Me ogulho de:</h2>
-    <ul>
-        <li >Ser formado como Cozinheiro Profissional e Alta Gastronomia</li>
-        <li>Ser formado como Engenheiro Civil</li>
-        <li><em>Ter pós graduado em Gestão Ágil de Projetos</em></li>
-        <li><strong>Ser um baita de um pescador</strong></li>
-        <li>Estar estudando Desenvolvimento Web na Trybe</li>
-    </ul>
-    <a href="#foto">Voltar a foto do Thiago </a><br><br>
+    <header>
+        <div class="headerContent">
+            <h1>Meu primeiro portifólio!</h1>
+            <div class="containerNamePhoto">
+                <h2 class="nameThiago">Thiago Costa <br>Correia de Souza</h2>
+                <div class="containerPhoto">
+                    <img class="mainPhoto" src="./images/thiago.jpeg" alt="Foto do Thiago na obra usando capacete">
+                </div>
+            </div>
+            <div class="containerFormation">
+                <h2 class="formation">Formações Acadêmicas</h2>
+                <ul>
+                    <li>Engenharia Civil</li>
+                    <li>Gestão Ágil de Projetos</li>
+                    <li>Cozinheiro Profissional</li>
+                    <li>Chef de Alta Gastronomia</li>
+                </ul>
+
+                <div class="button">
+                    <a class="student" href="https://www.betrybe.com/?utm_source=trybe.com.br">Estudante Trybe!</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 class="nomeTitulos">Informações Pessoais</h2>
+        <p class="corTextos">Brasileiro <br>
+            Nascido em Belo Horizonte - Minas Gerais <br>
+            Morador do Bairro Floresta - BH
+
+        </p>
+        <h2 class="nomeTitulos">Me ogulho de:</h2>
+        <ul class="corTextos">
+            <li>Ser formado como Cozinheiro Profissional e Alta Gastronomia</li>
+            <li>Ser formado como Engenheiro Civil</li>
+            <li><em>Ter pós graduado em Gestão Ágil de Projetos</em></li>
+            <li><strong>Ser um baita de um pescador</strong></li>
+            <li>Estar estudando Desenvolvimento Web na Trybe</li>
+        </ul>
+    </main>
+    <a class="voltarFoto" href=".foto">Voltar a foto do Thiago </a><br><br>
     <a href="https://blog.betrybe.com/" target="_blank">Ir para o blog da Trybe</a>
-   <ol>
-       <li><a href="#1">Nome</a></li><br>
-       <li><a href="#2">Me orgulho de</a></li><br>
-   </ol>
+    <ol>
+        <li><a href="#1">Nome</a></li><br>
+        <li><a href="#2">Me orgulho de</a></li><br>
+    </ol>
 </body>
+
 </html>
