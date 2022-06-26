@@ -1,19 +1,82 @@
-body {
-    background-color:#98c1d9;
+* {
+    margin: 0;
+    padding: 0;
 }
-.nomeTitulos {
-    color: #e0fbfc;
+
+header {
+    color: white;
+    background-image: url(./images/fundoPortifolio.jpeg);
+    background-size: cover;
+    padding: 5px 30px 40px;
+    border: red 3px solid;
+    /* retirar tamanho depois */
+    /* height: 500px; */
 }
-.foto {
-    border-radius: 10px;
+
+.headerContent {
+    position: relative;
 }
-.voltarFoto {
+
+h1 {
+    text-align: center;
+}
+
+.containerNamePhoto {
+    padding: 15px 10px;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+}
+
+.nameThiago {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.containerPhoto {
+    display: flex;
+    justify-content: center;
+    left: 50%;
+}
+
+.mainPhoto {
+    border-radius: 50%;
+    width: 250px;
+    margin-top: 30px;
+    border: white solid 3px;
+}
+
+.containerFormation {
+    max-width: 50%;
+    padding: 250px 0px 50px 20px;
+}
+
+.formation {
+    padding: 30px 0 30px 0;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+li {
+    padding: 5px;
+}
+
+.button {
+    max-width: 450px;
+    background-color: #11a36a;
+    padding: 15px 30px 0px;
+    border-radius: 15px 0;
+    font-weight: 700;
     text-decoration: none;
-    background-color: #ee6c4d;
-    padding: 10px 5px;
-    border-radius: 8px;
-    color: #293241;
+    text-align: center;
+    border: #355E3B solid 2px;
 }
-.corTextos {
-    color: #293241;
+
+.student {
+    font-size: 2em;
+    text-decoration: none;
 }
